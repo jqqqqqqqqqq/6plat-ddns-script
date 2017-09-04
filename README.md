@@ -17,6 +17,6 @@ If you use wget, then
 
 Add this line to your cron
 
-`\*/5 \* \* \* \* "absolute path to your script"`
+`*/5 * * * * "absolute path to your script"`
 
 change the "absolute path to your script" to your custom settings.

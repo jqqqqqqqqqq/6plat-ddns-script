@@ -1,5 +1,5 @@
 # 6plat-ddns-script
-an simple 6in4 ddns script for Linux and OpenWRT/LEDE
+A simple 6in4 ddns script for Linux and OpenWRT/LEDE
 
 ## Usage:
 

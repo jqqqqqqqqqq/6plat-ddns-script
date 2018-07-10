@@ -16,5 +16,5 @@ if [ $method == "uci" ]; then
     fi
 else
     local=$(ip addr | grep 'state UP' -A2 | grep "scope global "$local_ifname  | awk '{print $2}' | cut -f1  -d'/')
-    ip tunnel change $tunnel_name remote $remote
+    ip tunnel change $tunnel_name remote "$_6plat_ip"
 fi
